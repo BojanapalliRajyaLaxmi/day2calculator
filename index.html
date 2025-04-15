@@ -49,6 +49,10 @@
                 document.getElementById('text').value='invalid inputs'
             }
         }
+        function lastvalue(){
+            const value=document.getElementById(text);
+            text.value=text.value.slice(0,-1);
+        }
     </script>
 </body>
 </html>
